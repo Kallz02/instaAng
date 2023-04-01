@@ -1,0 +1,6 @@
+<input [(ngModel)]="username" />
+<button (click)="checkStatus()">Check Status</button>
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="status === 'real'">Real Account</div>
+<div *ngIf="status === 'fake'">Fake Account</div>
+<div *ngIf="status === 'error'">Server Error</div>
