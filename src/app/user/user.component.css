@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 4rem;
+    
+    background-color:rgba(#02010a,0.02);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;   
+    color: white; 
+}
+
+.logo{
+    font-size: 3rem;
+}
+.head{
+    text-align: center;
+    color: aliceblue;
+    font-size: 4rem;
+}
+.head2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+.min{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container{
+
+    margin-top: 10%;
+    border: solid rgb(61, 60, 60) 1px;
+    display: flex;
+    background-color:rgba(255,255,255,0.05);
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 4rem;
+    padding-top: 1.7rem;
+    min-width: 25rem;
+    border-radius: 10px;
+}
+
+.usr{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+    padding-bottom: 1.5rem;
+}
+
+.usrnme{
+    min-height: 3rem;
+    width: 20rem;
+    font-size: 1.7rem;
+    text-align: center;
+    color: aliceblue; 
+    background-color:rgba(255,255,255,0.07);
+    border-radius: 20px;
+    border: 2px solid rgb(61, 60, 60);
+}
+.btn{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 20px;
+
+}
+
+.status{
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 2rem;
+}

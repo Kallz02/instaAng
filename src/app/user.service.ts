@@ -12,7 +12,7 @@ interface User {
 export class UserService {
 
 
-  private readonly apiUrl = 'http://localhost:5000/user/';
+  private readonly apiUrl = 'https://instapi.akshayk.dev/user/';
 
   constructor(private http: HttpClient) { }
 

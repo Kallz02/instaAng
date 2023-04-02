@@ -1,6 +1,23 @@
-<input [(ngModel)]="username" />
-<button (click)="checkStatus()">Check Status</button>
-<div *ngIf="loading">Loading...</div>
-<div *ngIf="status === 'real'">Real Account</div>
-<div *ngIf="status === 'fake'">Fake Account</div>
-<div *ngIf="status === 'error'">Server Error</div>
+<header>
+    <div class="logo">
+        
+    </div>
+    <a href=""></a>
+</header>
+
+
+    <h1 class="head">InstafakeDetect</h1>
+    <h3 class="head2">Angular Client</h3>
+<div class="min">
+
+
+<div class="container">
+<h3 class="usr">Username:</h3>
+<input class="usrnme"  [(ngModel)]="username" />
+<button class="btn" (click)="checkStatus()">Check Status</button>
+<div  class="status"   *ngIf="loading">Loading...</div>
+<div class="status"  *ngIf="status === 'real'">Real Account</div>
+<div class="status"  *ngIf="status === 'fake'">Fake Account</div>
+<div class="status"  *ngIf="status === 'error'">Server Error</div>
+</div>
+</div>
