@@ -1,4 +1,8 @@
-# InstaAng
+# InstaFakeDetect Angular Client 👺
+
+### <li> Web Client using <b>Angular</b> which uses <b>HTTP module</b> to send request to the Backend</li>
+
+## Generated Docs 📃
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
